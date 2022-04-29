@@ -1,0 +1,33 @@
+.container
+{
+	width: 100%;
+	margin-top: 10%;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+.container h2
+{
+	background: slategray;
+	color: #fff;
+	width: 200px;
+	font-size: 24px;
+	padding:5px ;
+	height: 40px;
+}
+.container h2::after
+{
+	content: ' ';
+	border-top: 40px solid #0062cc;
+	order-right: 40px solid transparent;
+	position: relative;
+	left: 48px;
+	top: 34px;
+
+}
+.row{
+	margin-top: 40px;
+	float: right;
+}
+img{
+	width: 100%;
+}
